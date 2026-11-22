@@ -16,8 +16,6 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - uses: android-actions/setup-android@v3
-
       - name: Gradle wrapper
         run: gradle wrapper --gradle-version 8.10.2 --no-daemon
 
