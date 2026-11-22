@@ -1,0 +1,3 @@
+-keepattributes SourceFile,LineNumberTable
+-keep class com.emberline.core.** { *; }
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
